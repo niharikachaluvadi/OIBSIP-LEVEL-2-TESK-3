@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat" ,sans-serif ;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#c5d5cd,#9fa8a3,#e3e0cf);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+h4{
+    font-size: 25px;
+}
+.task{
+    width: 100%;
+    background: rgba(91,131,206,0.85);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task{
+    background: rgba(4,61,167,0.822);
+    color: rgb(0, 0, 0);
+}
+
+header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 700px;
+    margin-top: 80px;
+}
